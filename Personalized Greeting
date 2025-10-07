@@ -1,0 +1,9 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner b = new Scanner(System.in);
+      String z = b.nextLine();
+      System.out.println("Hi "+ z + ", welcome to the programming class!");
+  }
+}
