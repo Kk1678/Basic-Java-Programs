@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      int l = sc.nextInt();
+      int b = sc.nextInt();
+      int r = sc.nextInt();
+      int B = sc.nextInt();
+      int h = sc.nextInt();
+      
+      int Square = a * a;
+      int Rectangle = l * b;
+      double Circle = 3.14 * r * r;
+      double Triangle = 0.5 * B * h;
+      
+      
+      System.out.println("Area of Square=" + Square);
+      System.out.println("Area of Rectangle=" + Rectangle);
+      System.out.printf("Area of Circle=%.2f%n", Circle);
+      System.out.println("Area of Triangle=" + (int)Triangle);
+  }
+}
